@@ -68,9 +68,9 @@ A method is called by simply using it's name followed by brackets and the usual 
 	        int number1 = 10;
 	        int number2 = 20;
 	        
-	        System.out.println(sum(number1, number2));
+	        System.Console.WriteLine(Sum(number1, number2));
         }
-        static int sum(int a, int b)
+        static int Sum(int a, int b)
         {
 	        return(a + b);
         }
@@ -81,4 +81,4 @@ A method is called by simply using it's name followed by brackets and the usual 
 
 This example featured everything we discussed until now.
 It declares 2 variables, "number1" and "number2" and assigns values to them.
-the method "println" of namespace "System.out" is called with the return value of our "sum" funtion defined below, which is given 2 parameters.
+the method "WriteLine" of namespace "System.Console" is called with the return value of our "Sum" funtion defined below, which is given 2 parameters.
